@@ -21,22 +21,21 @@ public class Calculadora {
         n1 = sc.nextDouble();
         System.out.println("Ingresa el segundo numero");
         n2 = sc.nextDouble();    
-        switch (opcion) {
-            case 1:
-                result = n1 + n2;
-                System.out.println(result);
-                break;
+        if (opcion == 1){
+            result = n1 + n2;
+            System.out.println(result);
+            }
         
-            case 2:
-                result = n1 * n2;
-                System.out.println(result);
-                break;
+        else if (opcion == 2){
+            result = n1 * n2;
+            System.out.println(result);
+            }
 
-            case 3:
-                result = n1 / n2;
-                System.out.println(result);
-                break;
-            default:
+        else if (opcion == 3){
+            result = n1 / n2;
+            System.out.println(result);
+            }
+        else
             System.out.println("ERROR");
         }
     }
@@ -44,4 +43,4 @@ public class Calculadora {
     
 }
 
-}
+
