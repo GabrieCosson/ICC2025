@@ -1,7 +1,8 @@
 # ICC2025 <br/>
-Trabajos del equipo de Gabriel Cosson Martinez y Derek Maximo de la Serna Ortiz <br/>
+Trabajos del equipo de Gabriel Cosson Martinez 424111108 y Derek Maximo de la Serna Ortiz 320250363 <br/>
 # Instrucciones de Calculadora <br/>
-1.- Correr el codigo de Java <br/>
-2.- Ingresar el numero para la accion que desea ejecutar (el numero debe estar sin punto ni nada) <br/>
-3.- Si escogio gritar ingresa texto, si esocgio otra opcion ingresa el primer numero y luego el segundo <br/>
-4.- Lee el resultado
+1.- Clonar el repositorio con git clone y el enlace https del boton CODE <br/>
+2.- Situarse en la carpeta correcta desde la terminal <br/>
+3.- Ejecutar desde la terminal javac Calculadora.java <br/>
+4.- Ejecutar el comando java Calculadora desde la terminal <br/>
+5.- Ingresar los valores deseados segun indica el programa
