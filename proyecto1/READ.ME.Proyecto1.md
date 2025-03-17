@@ -4,7 +4,7 @@ Este proyecto tiene 2 archivos. "serviviciosRecipiente.java" el cual simplemente
 # Instrucciones de Proyecto <br/>
 1.- Clonar el repositorio con git clone y el enlace https del boton CODE <br/>
 2.- Situarse en la carpeta correcta desde la terminal <br/>
-3.- Abrir el documento "Recipiente.java" y cambiarle los valores del recipiente que quiere crear en caso de que quiera un recipiente distinto al que esta dado en el ejemplo <br/>
+3.- Abrir el documento "Recipiente.java" y cambiarle los valores del recipiente que quiere crear en caso de que quiera un recipiente distinto al que esta dado en el ejemplo, aunque si debe asegurar que la cantidad de liquido este entre 0 y el volumen del Recipiente. <br/>
 4.- Ejecutar desde la terminal "javac Recipiente.java" y despues "java Recipiente" <br/>
 
 
