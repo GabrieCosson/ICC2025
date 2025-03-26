@@ -26,7 +26,23 @@ public class Reloj {
         return hora;
     }
     public String mostrarHora(){
-        return ("El reloj marca " + hora + ":" + minuto + ":" + segundo + ".\nLa manecilla corta marca la hora " + hora +", la manecilla larga marca el minuto " + minuto + " y a manecilla delgada marca el segundo "+ segundo + ".");
+        String horaStr, minutoStr, segundoStr; 
+        if (hora < 10) {
+            horaStr = "0" + Integer.toString(hora);
+        } else {
+            horaStr = Integer.toString(hora);
+        }
+        if (minuto < 10) {
+            minutoStr = "0" + Integer.toString(minuto);
+        } else {
+            minutoStr = Integer.toString(minuto);
+        }
+        if (segundo < 10) {
+            segundoStr = "0" + Integer.toString(segundo);
+        } else {
+            segundoStr = Integer.toString(segundo);
+        }
+        return ("El reloj marca " + horaStr + ":" + minutoStr + ":" + segundoStr + ".");
     }
     public void incrementarSegundos(){
         segundo++;
