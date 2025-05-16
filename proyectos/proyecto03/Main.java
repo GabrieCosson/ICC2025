@@ -5,7 +5,6 @@ public class Main {
     }
     public class monton{
         ListaLigada lista = new ListaLigada();
-        int[] arreglo = new int[96]; 
         }
         Random rand = new Random(2);
         static void barajear(){
