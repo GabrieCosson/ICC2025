@@ -13,8 +13,11 @@ public class Carta {
         this.alto = a4;
         this.cejas = a5;
     }
-
-
+    @Override
+    public String toString() {
+        return feliz + "" + lentes + "" + sombrero + "" + alto + "" + cejas;
+    }
+    
     public int getfeliz() { return feliz; }
     public int getlentes() { return lentes; }
     public int getsombrero() { return sombrero; }
