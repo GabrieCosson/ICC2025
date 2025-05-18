@@ -1,9 +1,9 @@
 public class ListaLigada{
     class Nodo{
-        private int elemento;
+        private Object elemento;
         private Nodo siguiente;
         //referencia al nodo siguiente
-        public Nodo(int elemento){
+        public Nodo(Object elemento){
             this.elemento = elemento;
         }
     }
